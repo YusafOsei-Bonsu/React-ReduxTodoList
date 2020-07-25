@@ -23,4 +23,4 @@ To run the application, enter the following command: `npm start`, from the root 
 
 | Blockers      | Resolutions   | 
 | :-------------|--------------:| 
-|               |               | 
+| `TypeError: Cannot read property 'todos' of undefined` when attemping to map state to props |               | 
