@@ -2,11 +2,9 @@
 This is a side project that focuses on the development of a to-do list using React and Redux.
 
 ## Tech Stack
-- React
+- React (JSX)
 - Redux
 - CSS
-- HTML
-- JSX
 
 ## Use-cases
 - As a user, I want to be able to see all to-do items in the list. &#x2611;
