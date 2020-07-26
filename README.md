@@ -24,3 +24,6 @@ To run the application, enter the following command: `npm start`, from the root 
 | Blockers      | Resolutions   | 
 | :-------------|--------------:| 
 | `TypeError: Cannot read property 'todos' of undefined` when attemping to map state to props | The reducer function returned a state | 
+
+## What I have learnt from this project?
+- I have learnt how to connect a component to the Redux store to grab the current state.
