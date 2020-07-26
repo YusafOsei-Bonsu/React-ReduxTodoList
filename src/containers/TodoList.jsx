@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import Todo from '../components/Todo.jsx';
 import "../styles/TodoList.css";
 
 class TodoList extends React.Component {
@@ -11,11 +12,7 @@ class TodoList extends React.Component {
             {/* If the to-do list isn't empty, then display the to-do items. 
                 Otherwise, inform the user that the list is empty.  */}
                 {todos.length > 0 ? todos.map(todo => {
-                    return (
-                        <div>
-                            <p>{todo.name}</p>
-                        </div>
-                    );
+                    return <Todo key={todo.id} task={todo.task} />
                 }) : <p>Your to-do list is empty!!</p>}
             </div>
         );
