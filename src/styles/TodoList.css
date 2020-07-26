@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 #todo-container {
     display: flex;
     flex-direction: column;
@@ -10,4 +12,11 @@
     margin-top: 20px;
     border-radius: 10px;
     overflow: auto;
+}
+
+#empty-list-txt {
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #fff;
 }
