@@ -2,23 +2,22 @@ import React from 'react';
 import { connect } from 'react-redux';
 import "../styles/Todo.css";
 
-const Todo = ({ key, task }) => {
+class Todo extends React.Component {
 
-    const removeTodo = () => {
-        
+    render() {
+        const { task } = this.props;
+        return (
+            <div className="todo-item">
+                <p>{ task }</p>
+                <button className="btn btn-danger">Remove</button>
+            </div>
+        );
     }
-    
-    return (
-        <div className="todo-item">
-            <p>{ task }</p>
-            <button className="btn btn-danger" onClick={removeTodo}>Remove</button>
-        </div>
-    );
 }
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        deleteTodo: (id) => dispatch({ type: "DELETE_TODO", id }),
+        deleteTodo: (id) => dispatch({ type: "DELETE_TODO", id })
     }
 }
 
