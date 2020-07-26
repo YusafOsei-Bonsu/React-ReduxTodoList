@@ -17,7 +17,6 @@ class TodoForm extends React.Component {
     onSubmitHandler = (e) => {
         // Prevents refreshing
         e.preventDefault();
-        console.log(this.state.todoItem);
     }
 
     render() {
