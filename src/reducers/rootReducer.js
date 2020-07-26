@@ -2,17 +2,17 @@ const initialState = {
     todos: [
         {
             id: 1,
-            name: "calisthenics",
+            task: "calisthenics",
             completed: false
         },
         {
             id: 2,
-            name: "coding",
+            task: "coding",
             completed: false
         },
         {
             id: 3,
-            name: "long walk",
+            task: "long walk",
             completed: false
         }
     ]
