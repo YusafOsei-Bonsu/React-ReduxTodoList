@@ -26,6 +26,9 @@ class TodoForm extends React.Component {
 
         // Increments the ID for the next to-do
         this.setState({ currentId: currentId + 1 });
+
+        // Emptying textbox after submission
+        e.target.reset();
     }
 
     render() {
