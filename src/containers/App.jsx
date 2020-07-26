@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header.jsx';
 import TodoForm from '../components/TodoForm.jsx';
-import TodoList from '../components/TodoList.jsx';
+import TodoList from './TodoList.jsx';
 import '../styles/App.css';
 
 class App extends React.Component {

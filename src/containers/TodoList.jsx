@@ -16,7 +16,7 @@ class TodoList extends React.Component {
                             <p>{todo.name}</p>
                         </div>
                     );
-                }) : <p>No to-do items at the moment</p>}
+                }) : <p>Your to-do list is empty!!</p>}
             </div>
         );
     }
