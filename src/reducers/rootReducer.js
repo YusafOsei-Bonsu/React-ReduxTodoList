@@ -1,5 +1,21 @@
 const initialState = {
-    todos: []
+    todos: [
+        {
+            id: 1,
+            name: "calisthenics",
+            completed: false
+        },
+        {
+            id: 2,
+            name: "coding",
+            completed: false
+        },
+        {
+            id: 3,
+            name: "long walk",
+            completed: false
+        }
+    ]
 }
 
 const rootReducer = (state=initialState, action) => {
