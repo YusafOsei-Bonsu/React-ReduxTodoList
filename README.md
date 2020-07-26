@@ -11,7 +11,7 @@ This is a side project that focuses on the development of a to-do list using Rea
 ## Use-cases
 - As a user, I want to be able to see all to-do items in the list. &#x2611;
 - As a user, I want to scroll through the list to see all to-do items. &#x2611;
-- As a user, I want to add items to the to-do list, in order to see which tasks are incomplete. 
+- As a user, I want to add items to the to-do list, in order to see which tasks are incomplete. &#x2611;
 - As a user, I want to cross-out/delete tasks that I have completed.
 
 ## What did I do?
