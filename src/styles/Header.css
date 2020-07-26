@@ -7,6 +7,8 @@ header {
     background-color: #8A2BE2;
     font-family: 'Quicksand', sans-serif;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 header img {
