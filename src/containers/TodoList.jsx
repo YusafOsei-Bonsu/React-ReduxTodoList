@@ -12,7 +12,7 @@ class TodoList extends React.Component {
             {/* If the to-do list isn't empty, then display the to-do items. 
                 Otherwise, inform the user that the list is empty.  */}
                 {todos.length > 0 ? todos.map(todo => {
-                    return <Todo key={todo.id} task={todo.task} />
+                    return <Todo key={todo.id} id={todo.id} task={todo.task} />
                 }) : <h2 id="empty-list-txt">Your to-do list is empty!!</h2>}
             </div>
         );
