@@ -11,13 +11,13 @@ const rootReducer = (state=initialState, action) => {
                 ...state,
                 todos: [...state.todos, action.todo]
             };
-        // Removes a to-do item from the list
         case "DELETE_TODO":
-            let newList = state.todos.filter(todo => todo.id !== action.id);
+            // A list without the todo that'll be deleted
+            let newTodos = state.todos.filter(todo => todo.id !== action.id);
             return {
-                ...state,
-                todos: newList
-            };
+                ...state, 
+                todos: newTodos
+            }
         default:
             return state;       
     }
