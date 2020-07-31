@@ -5,15 +5,52 @@ header {
     flex-direction: row;
     padding: 10px;
     background-color: #8A2BE2;
-    font-family: 'Quicksand', sans-serif;
-    width: 100%;
-    position: fixed;
     top: 0;
     align-items: center;
+}
+
+header h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 
 header > img {
     height: 50px;
     width: 50px;
     margin-right: 10px;
+}
+
+/* Responsiveness for the header */
+@media only screen and (max-width: 768px) {
+
+    header {
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 544px) {
+
+    header h1 {
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 486px) {
+
+    header h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 428px) {
+
+    header h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
 }
