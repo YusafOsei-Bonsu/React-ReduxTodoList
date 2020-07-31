@@ -3,8 +3,8 @@
 #todo-container {
     display: flex;
     flex-direction: column;
-    height: 400px;
-    width: 800px;
+    height: 350px;
+    width: 90%;
     border: 2px solid #000000;
     background-color: #8A2BE2;
     padding: 5px;
@@ -19,4 +19,8 @@
     padding-left: 10px;
     padding-top: 10px;
     color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+
 }
