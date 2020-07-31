@@ -7,6 +7,7 @@ header {
     background-color: #8A2BE2;
     top: 0;
     align-items: center;
+    justify-content: center;
 }
 
 header h1 {
@@ -21,14 +22,6 @@ header > img {
 }
 
 /* Responsiveness for the header */
-@media only screen and (max-width: 768px) {
-
-    header {
-        justify-content: center;
-    }
-
-}
-
 @media only screen and (max-width: 544px) {
 
     header h1 {
