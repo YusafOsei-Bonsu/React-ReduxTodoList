@@ -21,6 +21,10 @@
     color: #fff;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 416px) {
+    
+    #todo-container {
+        text-align: center;
+    }
 
 }
