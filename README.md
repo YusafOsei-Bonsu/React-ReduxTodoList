@@ -1,5 +1,7 @@
 # React/Redux To-Do List
-This is a side project that focuses on the development of a to-do list using React and Redux.
+This is a side project that focuses on the development of a to-do list using React and Redux. Below is the appearence of the to-do list.
+
+![UI of the React/Redux to-do list](public\assets\react-redux-ui.JPG "todo-list UI")
 
 ## Tech Stack
 - React (JSX)
